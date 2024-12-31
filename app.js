@@ -1,7 +1,7 @@
 const person ={
-    fname:"Soraya";
-    lname:"Rezaie";
-    Age:20;
+    fname:"Soraya",
+    lname:"Rezaie",
+    Age:20,
     reading : function () {
         console.log("reading");
     },

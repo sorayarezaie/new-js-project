@@ -2,6 +2,7 @@ const person ={
     fname:"Soraya",
     lname:"Rezaie",
     Age:20,
+    gender : "female",
     reading : function () {
         console.log("reading");
     },

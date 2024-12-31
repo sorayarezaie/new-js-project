@@ -25,7 +25,10 @@
 // console.log(fname);
 // console.log(lname);
 
-function greeting(){
-    console.log("hello");
-}
-console.log(typeof greeting);
+// function greeting(){
+//     console.log("hello");
+// }
+// console.log(typeof greeting);
+
+let x = false;
+x ? console.log ("hello world"): console.log("goodbye");

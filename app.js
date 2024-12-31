@@ -12,7 +12,7 @@ function person (fname, lname,age){
     this.age= age;
 }
 person.prototype.reading = function (){}
-    cont person1 = new person ("Soraya", "Rezaie", 20);
+    const person1 = new person ("Soraya", "Rezaie", 20);
     const person2 = new person ("Sakina", "Rezaie",18);
     console.log(person1.fname);
     console.log(person2.lname);

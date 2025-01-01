@@ -82,14 +82,42 @@
 //     }
 // }
 
-let score = 15;
-if(score>=60){
-    if(score>=90){
-        console.log("you are ellegible for scholership");
-    }else{
-        console.log("you are not ellegibale for scholership");
-    }
-}else{
-        console.log("you failed the exam");
-    }
+// let score = 15;
+// if(score>=60){
+//     if(score>=90){
+//         console.log("you are ellegible for scholership");
+//     }else{
+//         console.log("you are not ellegibale for scholership");
+//     }
+// }else{
+//         console.log("you failed the exam");
+//     }
 
+let day = 50;
+switch (day){
+    case 0 :
+        console.log("saterday");
+        break;
+        case 1:
+            console.log("sunday");
+            break;
+        case 2:
+            console.log("monday");
+            break;
+        case 3:
+            console.log("tuesday");
+            break;
+        case 4:
+            console.log("wednesday");
+            break;
+        case 5:
+            console.log("thursday");
+            break;
+        case 6:
+            console.log("friday");
+            break;
+
+        default:
+            console.log("invalid day");
+            
+}

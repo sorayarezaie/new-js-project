@@ -43,6 +43,14 @@
 //     statements
 // }
 
-if (true){
-    console.log("hello world");
+// if (true){
+//     console.log("hello world");
+// }
+
+let x = 46478;
+if (x/2 ==0){
+    console.log("even");
+}
+else{
+    console.log("odd");
 }

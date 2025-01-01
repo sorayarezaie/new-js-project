@@ -70,14 +70,26 @@
 // }
 
 
- let x = 13;
- if (x == 0 ){
-    console.log("zero");
- }else{
-    if (x % 2 == 0 ){
-        console.log("even");
+//  let x = 13;
+//  if (x == 0 ){
+//     console.log("zero");
+//  }else{
+//     if (x % 2 == 0 ){
+//         console.log("even");
+//     }
+//     else{
+//         console.log("odd");
+//     }
+// }
+
+let score = 15;
+if(score>=60){
+    if(score>=90){
+        console.log("you are ellegible for scholership");
+    }else{
+        console.log("you are not ellegibale for scholership");
     }
-    else{
-        console.log("odd");
+}else{
+        console.log("you failed the exam");
     }
-}
+

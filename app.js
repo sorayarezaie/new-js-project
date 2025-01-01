@@ -93,31 +93,51 @@
 //         console.log("you failed the exam");
 //     }
 
-let day = 50;
-switch (day){
-    case 0 :
-        console.log("saterday");
-        break;
-        case 1:
-            console.log("sunday");
-            break;
-        case 2:
-            console.log("monday");
-            break;
-        case 3:
-            console.log("tuesday");
-            break;
-        case 4:
-            console.log("wednesday");
-            break;
-        case 5:
-            console.log("thursday");
-            break;
-        case 6:
-            console.log("friday");
-            break;
+// let day = 50;
+// switch (day){
+//     case 0 :
+//         console.log("saterday");
+//         break;
+//         case 1:
+//             console.log("sunday");
+//             break;
+//         case 2:
+//             console.log("monday");
+//             break;
+//         case 3:
+//             console.log("tuesday");
+//             break;
+//         case 4:
+//             console.log("wednesday");
+//             break;
+//         case 5:
+//             console.log("thursday");
+//             break;
+//         case 6:
+//             console.log("friday");
+//             break;
 
-        default:
-            console.log("invalid day");
+//         default:
+//             console.log("invalid day");
             
+// }
+
+// let num = 1;
+// while (num <= 10){
+//     console.log(num);
+//     num = num +1;
+// }
+
+// let num = 10;
+// while (num >= 1){
+//     console.log(num);
+//     num = num -1;
+// }
+
+let x = 2;
+while (x <= 20){
+    if (x % 2 == 0){
+        document.write(x + "<br>");
+    }
+    x++
 }

@@ -30,5 +30,19 @@
 // }
 // console.log(typeof greeting);
 
-let x = false;
-x ? console.log ("hello world"): console.log("goodbye");
+// let x = false;
+// x ? console.log ("hello world"): console.log("goodbye");
+// structure of if:
+// if (condition){
+//     statements
+// }
+// else if (codition){
+
+// }
+// else{
+//     statements
+// }
+
+if (true){
+    console.log("hello world");
+}

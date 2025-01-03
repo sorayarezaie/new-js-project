@@ -134,10 +134,16 @@
 //     num = num -1;
 // }
 
-let x = 2;
-while (x <= 20){
-    if (x % 2 == 0){
-        document.write(x + "<br>");
-    }
-    x++
+// let x = 2;
+// while (x <= 20){
+//     if (x % 2 == 0){
+//         document.write(x + "<br>");
+//     }
+//     x++
+// }
+
+let num = 20;
+while(num >= 1 ){
+    console.log(num);
+    num = num + 1;
 }

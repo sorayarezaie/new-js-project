@@ -148,7 +148,7 @@
 //     num = num + 1;
 // }
 
-const num = Math.floor(Math.random() * 100) +1;
+const num = Math.floor(Math.random() * 10) +1;
 while(true) {
     guess = parseInt(prompt ("gaess the number between 1 - 10"));
     if (guess === num){

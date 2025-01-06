@@ -148,17 +148,19 @@
 //     num = num + 1;
 // }
 
-const num = Math.floor(Math.random() * 100) +1;
-while(true) {
-    guess = parseInt(prompt ("gaess the number between 1 - 10"));
-    if (guess === num){
-        alert("you won a game");
-        break;
-}
-else if (guess > num){
-    alert ("too high, try again")
-}
-else if (guess < num){
-    alert ("too low , try again")
-}
-}
+// const num = Math.floor(Math.random() * 100) +1;
+// while(true) {
+//     guess = parseInt(prompt ("gaess the number between 1 - 10"));
+//     if (guess === num){
+//         alert("you won a game");
+//         break;
+// }
+// else if (guess > num){
+//     alert ("too high, try again")
+// }
+// else if (guess < num){
+//     alert ("too low , try again")
+// }
+// }
+
+const num = Math.floor(Math.rendome()* 100) +1;

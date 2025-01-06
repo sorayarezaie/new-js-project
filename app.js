@@ -170,4 +170,8 @@ while(true){
         alert("you won a game");
         break;
     }
+    else if (guess > num){
+        alert ("too high, try again")
+    }
+    
 }

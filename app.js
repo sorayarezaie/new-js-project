@@ -163,9 +163,9 @@
 // }
 // }
 
-const num = Math.floor(Math.rendome()* 100) +1;
+const num = Math.floor(Math.random()* 100) +1;
 while(true){
-    guess = parseInt(prompt ("geass the number between 1 - 10"));
+    guess = parseInt(prompt ("geass the number between 1 - 100"));
     if (guess === num){
         alert("you won a game");
         break;

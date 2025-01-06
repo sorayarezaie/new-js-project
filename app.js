@@ -173,5 +173,7 @@ while(true){
     else if (guess > num){
         alert ("too high, try again")
     }
-    
+    else if (guess < num){
+        alert ("too low, try again")
+    }
 }

@@ -164,3 +164,10 @@
 // }
 
 const num = Math.floor(Math.rendome()* 100) +1;
+while(true){
+    guess = parseInt(prompt ("guess the number between 1 - 10"));
+    if (guess === num){
+        alert("you won a game");
+        break;
+    }
+}

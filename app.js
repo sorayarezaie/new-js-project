@@ -163,17 +163,23 @@
 // }
 // }
 
-const num = Math.floor(Math.random()* 100) +1;
-while(true){
-    guess = parseInt(prompt ("geass the number between 1 - 100"));
-    if (guess === num){
-        alert("you won a game");
-        break;
-    }
-    else if (guess > num){
-        alert ("too high, try again")
-    }
-    else if (guess < num){
-        alert ("too low, try again")
-    }
+// const num = Math.floor(Math.random()* 100) +1;
+// while(true){
+//     guess = parseInt(prompt ("geass the number between 1 - 100"));
+//     if (guess === num){
+//         alert("you won a game");
+//         break;
+//     }
+//     else if (guess > num){
+//         alert ("too high, try again")
+//     }
+//     else if (guess < num){
+//         alert ("too low, try again")
+//     }
+// }
+ 
+let num = 20;
+while (num >= 1){
+    console.log(num);
+    
 }

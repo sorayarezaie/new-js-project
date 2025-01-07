@@ -217,3 +217,7 @@
 //     console.log(num);
 //     num = num * 2;
 // }
+
+
+
+const num = Math.floor (Math .random)

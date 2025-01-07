@@ -18,17 +18,17 @@
 //     const person2 = new person ("Sakina", "Rezaie",18, female);
 //     console.log(person1.fname);
 //     console.log(person2.lname);
-
-
 // let {fname, lname, age, gender}= person;
-
 // console.log(fname);
 // console.log(lname);
-
 // function greeting(){
 //     console.log("hello");
 // }
 // console.log(typeof greeting);
+
+
+
+
 
 // let x = false;
 // x ? console.log ("hello world"): console.log("goodbye");
@@ -37,15 +37,17 @@
 //     statements
 // }
 // else if (codition){
-
 // }
 // else{
 //     statements
 // }
-
 // if (true){
 //     console.log("hello world");
 // }
+
+
+
+
 
 // let x = 0;
 // if (x==0){
@@ -58,6 +60,9 @@
 //     console.log("odd");
 // }
 
+
+
+
 // let x =0;
 // if (x == 0){
 //     console.log("zero");
@@ -68,6 +73,9 @@
 // else{
 //     console.log("negative");
 // }
+
+
+
 
 
 //  let x = 13;
@@ -82,6 +90,9 @@
 //     }
 // }
 
+
+
+
 // let score = 15;
 // if(score>=60){
 //     if(score>=90){
@@ -92,6 +103,10 @@
 // }else{
 //         console.log("you failed the exam");
 //     }
+
+
+
+
 
 // let day = 50;
 // switch (day){
@@ -118,9 +133,11 @@
 //             break;
 
 //         default:
-//             console.log("invalid day");
-            
+//             console.log("invalid day"); 
 // }
+
+
+
 
 // let num = 1;
 // while (num <= 10){
@@ -128,11 +145,17 @@
 //     num = num +1;
 // }
 
+
+
+
 // let num = 10;
 // while (num >= 1){
 //     console.log(num);
 //     num = num -1;
 // }
+
+
+
 
 // let x = 2;
 // while (x <= 20){
@@ -142,11 +165,16 @@
 //     x++
 // }
 
+
+
 // let num = 20;
 // while(num >= 1 ){
 //     console.log(num);
 //     num = num + 1;
 // }
+
+
+
 
 // const num = Math.floor(Math.random() * 100) +1;
 // while(true) {
@@ -163,6 +191,9 @@
 // }
 // }
 
+
+
+
 // const num = Math.floor(Math.random()* 100) +1;
 // while(true){
 //     guess = parseInt(prompt ("geass the number between 1 - 100"));
@@ -178,8 +209,11 @@
 //     }
 // }
  
-let num = 100;
-while (num >= 1){
-    console.log(num);
-    num = num * 2;
-}
+
+
+
+// let num = 100;
+// while (num >= 1){
+//     console.log(num);
+//     num = num * 2;
+// }

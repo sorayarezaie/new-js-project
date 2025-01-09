@@ -6,6 +6,7 @@ body{
     background-color: blueviolet;
     height: 120px;
     width: 100%;
+    display: none;
 
 }
 .i{

@@ -1,11 +1,10 @@
-p{
-    color: aquamarine;
-    border: solid 4px grey;
-}
+
 body{
     background-color: gainsboro;
 }
 .box{
     background-color: blueviolet;
-    
+    height: 120px;
+    width: 100%;
+
 }

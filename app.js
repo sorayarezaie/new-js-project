@@ -212,7 +212,7 @@
 
 
 
-let num = 100;
+let num = 1000;
 while (num >= 1){
     console.log(num);
     num = num * 2;

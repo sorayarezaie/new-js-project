@@ -212,9 +212,9 @@
 
 
 
-let num = 1000;
-while (num >= 1){
-    console.log(num);
-    num = num * 2;
-}
+// let num = 1000;
+// while (num >= 1){
+//     console.log(num);
+//     num = num * 2;
+// }
 

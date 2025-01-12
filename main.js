@@ -1,5 +1,5 @@
 function greeting (){
-    console.log("hello");
+    console.log("hello world");
 }
 greeting();
 // console.log(typeof greeting);
